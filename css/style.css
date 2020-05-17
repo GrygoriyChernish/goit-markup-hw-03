@@ -188,6 +188,14 @@ img {
   display: flex;
 }
 
+.features > .item {
+  width: calc((100% - 90px) / 4);
+}
+
+.features .item:not(:nth-child(4n)) {
+  margin-right: 30px;
+}
+
 .features .title {
   margin-top: 30px;
   margin-bottom: 10px;
@@ -196,10 +204,6 @@ img {
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
-}
-
-.features .item:not(:nth-child(4n)) {
-  margin-right: 30px;
 }
 
 .features .text {
@@ -213,6 +217,10 @@ img {
 /* Секция "Чем мы занимаемся" */
 .work-list {
   display: flex;
+}
+
+.work-list > .item {
+  width: calc((100% - 60px) / 3);
 }
 
 .work-list .item:not(:nth-child(3n)) {
@@ -238,6 +246,10 @@ img {
 /* Секция "Наша команда"  */
 .our-team {
   display: flex;
+}
+
+.our-team > .item {
+  width: calc((100% - 90px) / 4);
 }
 
 .our-team > .item:not(:nth-child(4n)) {
