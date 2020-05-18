@@ -448,3 +448,7 @@ address {
   line-height: 1.88;
   color: var(--secondary-text-color);
 }
+
+.card-link {
+  display: block;
+}
